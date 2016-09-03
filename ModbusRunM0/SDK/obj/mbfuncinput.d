@@ -1,0 +1,12 @@
+.\obj\mbfuncinput.o: ..\freemodbus-v1.6.0\modbus\functions\mbfuncinput.c
+.\obj\mbfuncinput.o: E:\Keil\ARM\RV31\INC\stdlib.h
+.\obj\mbfuncinput.o: E:\Keil\ARM\RV31\INC\string.h
+.\obj\mbfuncinput.o: ..\freemodbus-v1.6.0\port\port.h
+.\obj\mbfuncinput.o: ..\freemodbus-v1.6.0\modbus\include\mbconfig.h
+.\obj\mbfuncinput.o: E:\Keil\ARM\RV31\INC\assert.h
+.\obj\mbfuncinput.o: E:\Keil\ARM\RV31\INC\inttypes.h
+.\obj\mbfuncinput.o: E:\Keil\ARM\RV31\INC\stdint.h
+.\obj\mbfuncinput.o: ..\freemodbus-v1.6.0\modbus\include\mb.h
+.\obj\mbfuncinput.o: ..\freemodbus-v1.6.0\modbus\include\mbport.h
+.\obj\mbfuncinput.o: ..\freemodbus-v1.6.0\modbus\include\mbproto.h
+.\obj\mbfuncinput.o: ..\freemodbus-v1.6.0\modbus\include\mbframe.h

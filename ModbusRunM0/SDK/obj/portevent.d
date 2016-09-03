@@ -1,0 +1,9 @@
+.\obj\portevent.o: ..\freemodbus-v1.6.0\port\portevent.c
+.\obj\portevent.o: ..\freemodbus-v1.6.0\modbus\include\mb.h
+.\obj\portevent.o: ..\freemodbus-v1.6.0\port\port.h
+.\obj\portevent.o: ..\freemodbus-v1.6.0\modbus\include\mbconfig.h
+.\obj\portevent.o: E:\Keil\ARM\RV31\INC\assert.h
+.\obj\portevent.o: E:\Keil\ARM\RV31\INC\inttypes.h
+.\obj\portevent.o: E:\Keil\ARM\RV31\INC\stdint.h
+.\obj\portevent.o: ..\freemodbus-v1.6.0\modbus\include\mbport.h
+.\obj\portevent.o: ..\freemodbus-v1.6.0\modbus\include\mbproto.h

@@ -1,0 +1,32 @@
+*** Creating Trace Output File '.\obj\MyProject.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\core_cm0.o"'
+### List of Objects: adding '".\obj\system_m051series.o"'
+### List of Objects: adding '".\obj\startup_m051series.o"'
+### List of Objects: adding '".\obj\initialization.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\app_hooks.o"'
+### List of Objects: adding '".\obj\ram.o"'
+### List of Objects: adding '".\obj\uart_ad.o"'
+### List of Objects: adding '".\obj\rambuf.o"'
+### List of Objects: adding '".\obj\retarget.o"'
+### List of Objects: adding '".\obj\ucos_ii.o"'
+### List of Objects: adding '".\obj\os_cpu_c.o"'
+### List of Objects: adding '".\obj\os_dbg.o"'
+### List of Objects: adding '".\obj\os_cpu_a.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\obj\core_cm0.o" ".\obj\system_m051series.o" ".\obj\startup_m051series.o" ".\obj\initialization.o" ".\obj\main.o" ".\obj\app_hooks.o" ".\obj\ram.o" ".\obj\uart_ad.o" ".\obj\rambuf.o" ".\obj\retarget.o" ".\obj\ucos_ii.o" ".\obj\os_cpu_c.o" ".\obj\os_dbg.o" ".\obj\os_cpu_a.o" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --feedback ".\obj\MyProject.fed" 
+--strict --map --first='startup_M051Series.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map 
+--info sizes --info totals 
+ --list ".\lst\MyProject.map" -o ".\obj\MyProject.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\MyProject.axf'
+### ADS-LD Command File: '.\obj\MyProject.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\MyProject.lnp', Handle=0x00000678
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\MyProject.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

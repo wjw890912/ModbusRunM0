@@ -1,0 +1,879 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\×ÀÃæ\MODBUS-M0\SDK\Modbus.uvproj
+Project File Date:  09/02/2016
+
+<h2>Output:</h2>
+Build target 'Modbus'
+compiling main.c...
+..\user\src\main.c(7): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\user\src\main.c:   #include "M051Series.h"
+..\user\src\main.c:                          ^
+..\user\src\main.c: ..\user\src\main.c: 0 warnings, 1 error
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(26): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\portserial.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 0 warnings, 1 error
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling user_mb_app.c...
+compiling mbcrc.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c(142): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:   }
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:    ^
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: ..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: 1 warning, 0 errors
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(31): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                          ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 0 warnings, 1 error
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(14): error:  #5: cannot open source input file "mbrtu.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:   #include "mbrtu.h"
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                     ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 0 warnings, 1 error
+compiling mbfunccoils.c...
+compiling mbfuncdiag.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c(33): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: ..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: 0 warnings, 1 error
+compiling mbutils.c...
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c(30): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c: ..\freemodbus-v1.6.0\modbus\functions\mbutils.c: 0 warnings, 1 error
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(48): error:  #5: cannot open source input file "mbrtu.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\mb.c:   #include "mbrtu.h"
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 0 warnings, 1 error
+compiling acmp.c...
+..\chip_lib\StdDriver\src\acmp.c(12): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\acmp.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\acmp.c:                          ^
+..\chip_lib\StdDriver\src\acmp.c: ..\chip_lib\StdDriver\src\acmp.c: 0 warnings, 1 error
+compiling adc.c...
+..\chip_lib\StdDriver\src\adc.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\adc.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\adc.c:                          ^
+..\chip_lib\StdDriver\src\adc.c: ..\chip_lib\StdDriver\src\adc.c: 0 warnings, 1 error
+compiling clk.c...
+..\chip_lib\StdDriver\src\clk.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\clk.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\clk.c:                          ^
+..\chip_lib\StdDriver\src\clk.c: ..\chip_lib\StdDriver\src\clk.c: 0 warnings, 1 error
+compiling ebi.c...
+..\chip_lib\StdDriver\src\ebi.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\ebi.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\ebi.c:                          ^
+..\chip_lib\StdDriver\src\ebi.c: ..\chip_lib\StdDriver\src\ebi.c: 0 warnings, 1 error
+compiling fmc.c...
+..\chip_lib\StdDriver\src\fmc.c(14): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\fmc.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\fmc.c:                          ^
+..\chip_lib\StdDriver\src\fmc.c: ..\chip_lib\StdDriver\src\fmc.c: 0 warnings, 1 error
+compiling gpio.c...
+..\chip_lib\StdDriver\src\gpio.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\gpio.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\gpio.c:                          ^
+..\chip_lib\StdDriver\src\gpio.c: ..\chip_lib\StdDriver\src\gpio.c: 0 warnings, 1 error
+compiling i2c.c...
+..\chip_lib\StdDriver\src\i2c.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\i2c.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\i2c.c:                          ^
+..\chip_lib\StdDriver\src\i2c.c: ..\chip_lib\StdDriver\src\i2c.c: 0 warnings, 1 error
+compiling pwm.c...
+..\chip_lib\StdDriver\src\pwm.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\pwm.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\pwm.c:                          ^
+..\chip_lib\StdDriver\src\pwm.c: ..\chip_lib\StdDriver\src\pwm.c: 0 warnings, 1 error
+compiling retarget.c...
+..\chip_lib\StdDriver\src\retarget.c(15): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\retarget.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\retarget.c:                          ^
+..\chip_lib\StdDriver\src\retarget.c: ..\chip_lib\StdDriver\src\retarget.c: 0 warnings, 1 error
+compiling spi.c...
+..\chip_lib\StdDriver\src\spi.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\spi.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\spi.c:                          ^
+..\chip_lib\StdDriver\src\spi.c: ..\chip_lib\StdDriver\src\spi.c: 0 warnings, 1 error
+compiling sys.c...
+..\chip_lib\StdDriver\src\sys.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\sys.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\sys.c:                          ^
+..\chip_lib\StdDriver\src\sys.c: ..\chip_lib\StdDriver\src\sys.c: 0 warnings, 1 error
+compiling timer.c...
+..\chip_lib\StdDriver\src\timer.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\timer.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\timer.c:                          ^
+..\chip_lib\StdDriver\src\timer.c: ..\chip_lib\StdDriver\src\timer.c: 0 warnings, 1 error
+compiling uart.c...
+..\chip_lib\StdDriver\src\uart.c(13): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\uart.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\uart.c:                          ^
+..\chip_lib\StdDriver\src\uart.c: ..\chip_lib\StdDriver\src\uart.c: 0 warnings, 1 error
+compiling wdt.c...
+..\chip_lib\StdDriver\src\wdt.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\wdt.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\wdt.c:                          ^
+..\chip_lib\StdDriver\src\wdt.c: ..\chip_lib\StdDriver\src\wdt.c: 0 warnings, 1 error
+compiling wwdt.c...
+..\chip_lib\StdDriver\src\wwdt.c(11): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\StdDriver\src\wwdt.c:   #include "M051Series.h"
+..\chip_lib\StdDriver\src\wwdt.c:                          ^
+..\chip_lib\StdDriver\src\wwdt.c: ..\chip_lib\StdDriver\src\wwdt.c: 0 warnings, 1 error
+assembling startup_M051Series.s...
+compiling system_M051Series.c...
+..\chip_lib\Device\Nuvoton\M051Series\Source\system_M051Series.c(14): error:  #5: cannot open source input file "M051Series.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Source\system_M051Series.c:   #include "M051Series.h"
+..\chip_lib\Device\Nuvoton\M051Series\Source\system_M051Series.c:                          ^
+..\chip_lib\Device\Nuvoton\M051Series\Source\system_M051Series.c: ..\chip_lib\Device\Nuvoton\M051Series\Source\system_M051Series.c: 0 warnings, 1 error
+Target not created
+Build target 'Modbus'
+compiling main.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\user\src\main.c: 0 warnings, 1 error
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(26): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\portserial.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 0 warnings, 1 error
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling user_mb_app.c...
+compiling mbcrc.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c(142): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:   }
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:    ^
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: ..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: 1 warning, 0 errors
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(31): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                          ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 0 warnings, 1 error
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(14): error:  #5: cannot open source input file "mbrtu.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:   #include "mbrtu.h"
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                     ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 0 warnings, 1 error
+compiling mbfunccoils.c...
+compiling mbfuncdiag.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c(33): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: ..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: 0 warnings, 1 error
+compiling mbutils.c...
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c(30): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c: ..\freemodbus-v1.6.0\modbus\functions\mbutils.c: 0 warnings, 1 error
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(48): error:  #5: cannot open source input file "mbrtu.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\mb.c:   #include "mbrtu.h"
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 0 warnings, 1 error
+compiling acmp.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\acmp.c: 0 warnings, 1 error
+compiling adc.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\adc.c: 0 warnings, 1 error
+compiling clk.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\clk.c: 0 warnings, 1 error
+compiling ebi.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\ebi.c: 0 warnings, 1 error
+compiling fmc.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\fmc.c: 0 warnings, 1 error
+compiling gpio.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\gpio.c: 0 warnings, 1 error
+compiling i2c.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\i2c.c: 0 warnings, 1 error
+compiling pwm.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\pwm.c: 0 warnings, 1 error
+compiling retarget.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\retarget.c: 0 warnings, 1 error
+compiling spi.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\spi.c: 0 warnings, 1 error
+compiling sys.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\sys.c: 0 warnings, 1 error
+compiling timer.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\timer.c: 0 warnings, 1 error
+compiling uart.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\uart.c: 0 warnings, 1 error
+compiling wdt.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\wdt.c: 0 warnings, 1 error
+compiling wwdt.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\StdDriver\src\wwdt.c: 0 warnings, 1 error
+compiling system_M051Series.c...
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h(6665): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:   #include "sys.h"
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h:                   ^
+..\chip_lib\Device\Nuvoton\M051Series\Include\M051Series.h: ..\chip_lib\Device\Nuvoton\M051Series\Source\system_M051Series.c: 0 warnings, 1 error
+Target not created
+Build target 'Modbus'
+compiling main.c...
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(26): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\portserial.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 0 warnings, 1 error
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling user_mb_app.c...
+compiling mbcrc.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c(142): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:   }
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:    ^
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: ..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: 1 warning, 0 errors
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(31): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                          ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 0 warnings, 1 error
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(14): error:  #5: cannot open source input file "mbrtu.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:   #include "mbrtu.h"
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                     ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 0 warnings, 1 error
+compiling mbfunccoils.c...
+compiling mbfuncdiag.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c(33): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: ..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: 0 warnings, 1 error
+compiling mbutils.c...
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c(30): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c: ..\freemodbus-v1.6.0\modbus\functions\mbutils.c: 0 warnings, 1 error
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(48): error:  #5: cannot open source input file "mbrtu.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\mb.c:   #include "mbrtu.h"
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 0 warnings, 1 error
+compiling acmp.c...
+compiling adc.c...
+compiling clk.c...
+compiling ebi.c...
+compiling fmc.c...
+compiling gpio.c...
+compiling i2c.c...
+compiling pwm.c...
+compiling retarget.c...
+compiling spi.c...
+compiling sys.c...
+compiling timer.c...
+compiling uart.c...
+compiling wdt.c...
+compiling wwdt.c...
+compiling system_M051Series.c...
+Target not created
+Build target 'Modbus'
+compiling main.c...
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(26): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\portserial.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 0 warnings, 1 error
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling user_mb_app.c...
+compiling mbcrc.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c(142): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:   }
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:    ^
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: ..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: 1 warning, 0 errors
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(31): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                          ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 0 warnings, 1 error
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(18): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 0 warnings, 1 error
+compiling mbfunccoils.c...
+compiling mbfuncdiag.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c(33): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: ..\freemodbus-v1.6.0\modbus\functions\mbfuncother.c: 0 warnings, 1 error
+compiling mbutils.c...
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c(30): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\mbutils.c: ..\freemodbus-v1.6.0\modbus\functions\mbutils.c: 0 warnings, 1 error
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(146): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\freemodbus-v1.6.0\modbus\mb.c:           ( ucSlaveAddress < MB_ADDRESS_MIN ) || ( ucSlaveAddress > MB_ADDRESS_MAX ) )
+..\freemodbus-v1.6.0\modbus\mb.c:                            ^
+..\freemodbus-v1.6.0\modbus\mb.c(426): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(426): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 4 warnings, 0 errors
+compiling acmp.c...
+compiling adc.c...
+compiling clk.c...
+compiling ebi.c...
+compiling fmc.c...
+compiling gpio.c...
+compiling i2c.c...
+compiling pwm.c...
+compiling retarget.c...
+compiling spi.c...
+compiling sys.c...
+compiling timer.c...
+compiling uart.c...
+compiling wdt.c...
+compiling wwdt.c...
+compiling system_M051Series.c...
+Target not created
+Build target 'Modbus'
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(26): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\portserial.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 0 warnings, 1 error
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling mbrtu.c...
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(18): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                          ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 0 warnings, 1 error
+compiling mbfuncother.c...
+compiling mbutils.c...
+Target not created
+Build target 'Modbus'
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(26): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\portserial.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 0 warnings, 1 error
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(94): warning:  #69-D: integer conversion resulted in truncation
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                     pucFrame[3] =22000;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                                  ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(42): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 2 warnings, 0 errors
+Target not created
+Build target 'Modbus'
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(38): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         UART_EnableInt(UART3, UART_INTEN_RDAIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                        ^
+..\freemodbus-v1.6.0\port\portserial.c(38): error:  #20: identifier "UART_INTEN_RDAIEN_Msk" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         UART_EnableInt(UART3, UART_INTEN_RDAIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                               ^
+..\freemodbus-v1.6.0\port\portserial.c(45): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         UART_DisableInt(UART3, UART_INTEN_RDAIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c(45): error:  #20: identifier "UART_INTEN_RDAIEN_Msk" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         UART_DisableInt(UART3, UART_INTEN_RDAIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                                ^
+..\freemodbus-v1.6.0\port\portserial.c(52): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         UART_EnableInt(UART3,  UART_INTEN_THREIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                        ^
+..\freemodbus-v1.6.0\port\portserial.c(52): error:  #20: identifier "UART_INTEN_THREIEN_Msk" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         UART_EnableInt(UART3,  UART_INTEN_THREIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                                ^
+..\freemodbus-v1.6.0\port\portserial.c(60): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:     UART_DisableInt(UART3, UART_INTEN_THREIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                     ^
+..\freemodbus-v1.6.0\port\portserial.c(60): error:  #20: identifier "UART_INTEN_THREIEN_Msk" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:     UART_DisableInt(UART3, UART_INTEN_THREIEN_Msk);
+..\freemodbus-v1.6.0\port\portserial.c:                            ^
+..\freemodbus-v1.6.0\port\portserial.c(80): error:  #20: identifier "UART3_MODULE" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:       CLK_EnableModuleClock(UART3_MODULE);
+..\freemodbus-v1.6.0\port\portserial.c:                             ^
+..\freemodbus-v1.6.0\port\portserial.c(82): error:  #20: identifier "CLK_CLKSEL1_UARTSEL_HIRC" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:       CLK_SetModuleClock(UART3_MODULE, CLK_CLKSEL1_UARTSEL_HIRC , CLK_CLKDIV0_UART(1));
+..\freemodbus-v1.6.0\port\portserial.c:                                        ^
+..\freemodbus-v1.6.0\port\portserial.c(82): warning:  #223-D: function "CLK_CLKDIV0_UART" declared implicitly
+..\freemodbus-v1.6.0\port\portserial.c:       CLK_SetModuleClock(UART3_MODULE, CLK_CLKSEL1_UARTSEL_HIRC , CLK_CLKDIV0_UART(1));
+..\freemodbus-v1.6.0\port\portserial.c:                                                                   ^
+..\freemodbus-v1.6.0\port\portserial.c(84): error:  #136: struct "<unnamed>" has no field "GPD_MFPL"
+..\freemodbus-v1.6.0\port\portserial.c:       SYS->GPD_MFPL |= SYS_GPD_MFPL_PD4MFP_UART3_RXD | SYS_GPD_MFPL_PD5MFP_UART3_TXD  ;
+..\freemodbus-v1.6.0\port\portserial.c:            ^
+..\freemodbus-v1.6.0\port\portserial.c(84): error:  #20: identifier "SYS_GPD_MFPL_PD4MFP_UART3_RXD" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:       SYS->GPD_MFPL |= SYS_GPD_MFPL_PD4MFP_UART3_RXD | SYS_GPD_MFPL_PD5MFP_UART3_TXD  ;
+..\freemodbus-v1.6.0\port\portserial.c:                        ^
+..\freemodbus-v1.6.0\port\portserial.c(84): error:  #20: identifier "SYS_GPD_MFPL_PD5MFP_UART3_TXD" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:       SYS->GPD_MFPL |= SYS_GPD_MFPL_PD4MFP_UART3_RXD | SYS_GPD_MFPL_PD5MFP_UART3_TXD  ;
+..\freemodbus-v1.6.0\port\portserial.c:                                                        ^
+..\freemodbus-v1.6.0\port\portserial.c(85): error:  #20: identifier "PD" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         GPIO_SetMode(PD, 5, GPIO_MODE_OUTPUT);
+..\freemodbus-v1.6.0\port\portserial.c:                      ^
+..\freemodbus-v1.6.0\port\portserial.c(85): error:  #20: identifier "GPIO_MODE_OUTPUT" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         GPIO_SetMode(PD, 5, GPIO_MODE_OUTPUT);
+..\freemodbus-v1.6.0\port\portserial.c:                             ^
+..\freemodbus-v1.6.0\port\portserial.c(86): error:  #20: identifier "GPIO_MODE_INPUT" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         GPIO_SetMode(PD, 4, GPIO_MODE_INPUT);
+..\freemodbus-v1.6.0\port\portserial.c:                             ^
+..\freemodbus-v1.6.0\port\portserial.c(87): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:       UART_Open(UART3, ulBaudRate);
+..\freemodbus-v1.6.0\port\portserial.c:                 ^
+..\freemodbus-v1.6.0\port\portserial.c(99): error:  #20: identifier "UART_INTEN_RDAIEN_Msk" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         UART_EnableInt(UART3, UART_INTEN_RDAIEN_Msk );
+..\freemodbus-v1.6.0\port\portserial.c:                               ^
+..\freemodbus-v1.6.0\port\portserial.c(100): error:  #20: identifier "UART3_IRQn" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         NVIC_SetPriority(UART3_IRQn, 2 );
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(109): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:      UART_WRITE(UART3, ucByte);
+..\freemodbus-v1.6.0\port\portserial.c:      ^
+..\freemodbus-v1.6.0\port\portserial.c(115): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         *pucByte = UART_READ(UART3);
+..\freemodbus-v1.6.0\port\portserial.c:                    ^
+..\freemodbus-v1.6.0\port\portserial.c(155): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:       uint32_t u32IntSts= UART3->INTSTS;
+..\freemodbus-v1.6.0\port\portserial.c:                           ^
+..\freemodbus-v1.6.0\port\portserial.c(158): error:  #20: identifier "UART_INTSTS_RDAINT_Msk" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:         if(u32IntSts & UART_INTSTS_RDAINT_Msk)
+..\freemodbus-v1.6.0\port\portserial.c:                        ^
+..\freemodbus-v1.6.0\port\portserial.c(168): error:  #20: identifier "UART_INTSTS_THREINT_Msk" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:          if(u32IntSts & UART_INTSTS_THREINT_Msk)
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 24 errors
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+Target not created
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(155): error:  #20: identifier "UART3" is undefined
+..\freemodbus-v1.6.0\port\portserial.c:       uint32_t u32IntSts= UART3->INTSTS;
+..\freemodbus-v1.6.0\port\portserial.c:                           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 1 warning, 1 error
+..\freemodbus-v1.6.0\port\portserial.c - 1 Error(s), 1 Warning(s).
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 1 warning, 0 errors
+..\freemodbus-v1.6.0\port\portserial.c - 0 Error(s), 1 Warning(s).
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c - 0 Error(s), 0 Warning(s).
+Build target 'Modbus'
+compiling main.c...
+compiling portserial.c...
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling mbrtu.c...
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(94): warning:  #69-D: integer conversion resulted in truncation
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                     pucFrame[3] =22000;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                                  ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(42): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 2 warnings, 0 errors
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling acmp.c...
+compiling adc.c...
+compiling clk.c...
+compiling ebi.c...
+compiling fmc.c...
+Project build/rebuild aborted.
+Target not created
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c - 0 Error(s), 0 Warning(s).
+Build target 'Modbus'
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(108): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(115): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling gpio.c...
+compiling i2c.c...
+compiling pwm.c...
+compiling retarget.c...
+compiling spi.c...
+compiling sys.c...
+compiling timer.c...
+compiling uart.c...
+compiling wdt.c...
+compiling wwdt.c...
+Project build/rebuild aborted.
+Target not created
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(108): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(115): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+..\freemodbus-v1.6.0\port\portserial.c - 0 Error(s), 2 Warning(s).
+Build target 'Modbus'
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(40): error:  #254: type name is not allowed
+..\freemodbus-v1.6.0\port\portserial.c:         UART_EnableInt(UART0, uint32_t u32InterruptFlag);
+..\freemodbus-v1.6.0\port\portserial.c:                               ^
+..\freemodbus-v1.6.0\port\portserial.c(40): error:  #18: expected a ")"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_EnableInt(UART0, uint32_t u32InterruptFlag);
+..\freemodbus-v1.6.0\port\portserial.c:                                        ^
+..\freemodbus-v1.6.0\port\portserial.c(47): error:  #254: type name is not allowed
+..\freemodbus-v1.6.0\port\portserial.c:   UART_DisableInt(UART0, uint32_t u32InterruptFlag);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(47): error:  #18: expected a ")"
+..\freemodbus-v1.6.0\port\portserial.c:   UART_DisableInt(UART0, uint32_t u32InterruptFlag);
+..\freemodbus-v1.6.0\port\portserial.c:                                   ^
+..\freemodbus-v1.6.0\port\portserial.c(110): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(117): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 4 errors
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+compiling system_M051Series.c...
+Target not created
+Build target 'Modbus'
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(110): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(117): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+Target not created
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(110): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(117): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+..\freemodbus-v1.6.0\port\portserial.c - 0 Error(s), 2 Warning(s).
+Build target 'Modbus'
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(110): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(117): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+Target not created
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(110): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(117): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+..\freemodbus-v1.6.0\port\portserial.c - 0 Error(s), 2 Warning(s).
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(110): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(117): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+..\freemodbus-v1.6.0\port\portserial.c - 0 Error(s), 2 Warning(s).
+Build target 'Modbus'
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(28): error:  #5: cannot open source input file "NUC472_442.h": No such file or directory
+..\freemodbus-v1.6.0\port\porttimer.c:   #include "NUC472_442.h"
+..\freemodbus-v1.6.0\port\porttimer.c:                          ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 0 warnings, 1 error
+Target not created
+Build target 'Modbus'
+compiling porttimer.c...
+..\freemodbus-v1.6.0\port\porttimer.c(41): error:  #20: identifier "CLK_CLKSEL1_TMR0SEL_PCLK" is undefined
+..\freemodbus-v1.6.0\port\porttimer.c:      CLK_SetModuleClock(TMR0_MODULE, CLK_CLKSEL1_TMR0SEL_PCLK, 0);
+..\freemodbus-v1.6.0\port\porttimer.c:                                      ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 1 warning, 1 error
+Target not created
+Build target 'Modbus'
+compiling porttimer.c...
+linking...
+.\obj\Modbus.axf: Error: L6406E: No space in execution regions with .ANY selector matching user_mb_app.o(.bss).
+.\obj\Modbus.axf: Error: L6407E: Sections of aggregate size 0x1b30 bytes could not fit into .ANY selector(s).
+.\obj\Modbus.axf: Not enough information to produce a FEEDBACK file.
+.\obj\Modbus.axf: Not enough information to list image symbols.
+.\obj\Modbus.axf: Not enough information to list the image map.
+.\obj\Modbus.axf: Finished: 3 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Modbus'
+linking...
+.\obj\Modbus.axf: Error: L6406E: No space in execution regions with .ANY selector matching user_mb_app.o(.bss).
+.\obj\Modbus.axf: Error: L6407E: Sections of aggregate size 0x1b30 bytes could not fit into .ANY selector(s).
+.\obj\Modbus.axf: Not enough information to produce a FEEDBACK file.
+.\obj\Modbus.axf: Not enough information to list image symbols.
+.\obj\Modbus.axf: Not enough information to list the image map.
+.\obj\Modbus.axf: Finished: 3 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Modbus'
+compiling user_mb_app.c...
+linking...
+.\obj\Modbus.axf: Error: L6406E: No space in execution regions with .ANY selector matching user_mb_app.o(.bss).
+.\obj\Modbus.axf: Error: L6407E: Sections of aggregate size 0x19d4 bytes could not fit into .ANY selector(s).
+.\obj\Modbus.axf: Not enough information to produce a FEEDBACK file.
+.\obj\Modbus.axf: Not enough information to list image symbols.
+.\obj\Modbus.axf: Not enough information to list the image map.
+.\obj\Modbus.axf: Finished: 3 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Modbus'
+linking...
+.\obj\Modbus.axf: Error: L6406E: No space in execution regions with .ANY selector matching user_mb_app.o(.bss).
+.\obj\Modbus.axf: Error: L6407E: Sections of aggregate size 0x19d4 bytes could not fit into .ANY selector(s).
+.\obj\Modbus.axf: Not enough information to produce a FEEDBACK file.
+.\obj\Modbus.axf: Not enough information to list image symbols.
+.\obj\Modbus.axf: Not enough information to list the image map.
+.\obj\Modbus.axf: Finished: 3 information, 0 warning and 2 error messages.
+Target not created
+compiling user_mb_app.c...
+..\freemodbus-v1.6.0\port\user_mb_app.c - 0 Error(s), 0 Warning(s).
+Build target 'Modbus'
+linking...
+.\obj\Modbus.axf: Error: L6406E: No space in execution regions with .ANY selector matching user_mb_app.o(.bss).
+.\obj\Modbus.axf: Error: L6407E: Sections of aggregate size 0x19d4 bytes could not fit into .ANY selector(s).
+.\obj\Modbus.axf: Not enough information to produce a FEEDBACK file.
+.\obj\Modbus.axf: Not enough information to list image symbols.
+.\obj\Modbus.axf: Not enough information to list the image map.
+.\obj\Modbus.axf: Finished: 3 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Modbus'
+compiling user_mb_app.c...
+linking...
+.\obj\Modbus.axf: Error: L6406E: No space in execution regions with .ANY selector matching user_mb_app.o(.bss).
+.\obj\Modbus.axf: Error: L6407E: Sections of aggregate size 0x19c0 bytes could not fit into .ANY selector(s).
+.\obj\Modbus.axf: Not enough information to produce a FEEDBACK file.
+.\obj\Modbus.axf: Not enough information to list image symbols.
+.\obj\Modbus.axf: Not enough information to list the image map.
+.\obj\Modbus.axf: Finished: 3 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Modbus'
+compiling user_mb_app.c...
+linking...
+.\obj\Modbus.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=3332 RO-data=504 RW-data=236 ZI-data=1140  
+.\obj\Modbus.axf: Finished: 0 information, 1 warning and 0 error messages.
+".\obj\Modbus.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Modbus'
+compiling main.c...
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\freemodbus-v1.6.0\port\portserial.c(110): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Write(UART0,&ucByte,1);
+..\freemodbus-v1.6.0\port\portserial.c:                          ^
+..\freemodbus-v1.6.0\port\portserial.c(117): warning:  #167-D: argument of type "CHAR *" is incompatible with parameter of type "uint8_t *"
+..\freemodbus-v1.6.0\port\portserial.c:         UART_Read(UART0,pucByte,1); 
+..\freemodbus-v1.6.0\port\portserial.c:                         ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 2 warnings, 0 errors
+compiling porttimer.c...
+compiling user_mb_app.c...
+compiling mbcrc.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c(142): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:   }
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c:    ^
+..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: ..\freemodbus-v1.6.0\modbus\rtu\mbcrc.c: 1 warning, 0 errors
+compiling mbrtu.c...
+compiling btfunc.c...
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(94): warning:  #69-D: integer conversion resulted in truncation
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                     pucFrame[3] =22000;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                                  ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(42): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 2 warnings, 0 errors
+compiling mbfunccoils.c...
+compiling mbfuncdiag.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(146): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\freemodbus-v1.6.0\modbus\mb.c:           ( ucSlaveAddress < MB_ADDRESS_MIN ) || ( ucSlaveAddress > MB_ADDRESS_MAX ) )
+..\freemodbus-v1.6.0\modbus\mb.c:                            ^
+..\freemodbus-v1.6.0\modbus\mb.c(426): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(426): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 4 warnings, 0 errors
+compiling acmp.c...
+compiling adc.c...
+compiling clk.c...
+compiling ebi.c...
+compiling fmc.c...
+compiling gpio.c...
+compiling i2c.c...
+compiling pwm.c...
+compiling retarget.c...
+compiling spi.c...
+compiling sys.c...
+compiling timer.c...
+compiling uart.c...
+compiling wdt.c...
+compiling wwdt.c...
+compiling system_M051Series.c...
+linking...
+.\obj\Modbus.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=3332 RO-data=504 RW-data=236 ZI-data=1140  
+.\obj\Modbus.axf: Finished: 0 information, 1 warning and 0 error messages.
+".\obj\Modbus.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Modbus'
+linking...
+.\obj\Modbus.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=3332 RO-data=504 RW-data=236 ZI-data=1140  
+.\obj\Modbus.axf: Finished: 0 information, 1 warning and 0 error messages.
+".\obj\Modbus.axf" - 0 Error(s), 1 Warning(s).

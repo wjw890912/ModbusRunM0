@@ -1,0 +1,54 @@
+*** Creating Trace Output File '.\obj\Modbus.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\port.o"'
+### List of Objects: adding '".\obj\portevent.o"'
+### List of Objects: adding '".\obj\portserial.o"'
+### List of Objects: adding '".\obj\porttimer.o"'
+### List of Objects: adding '".\obj\user_mb_app.o"'
+### List of Objects: adding '".\obj\mbcrc.o"'
+### List of Objects: adding '".\obj\mbrtu.o"'
+### List of Objects: adding '".\obj\btfunc.o"'
+### List of Objects: adding '".\obj\mbfunccoils.o"'
+### List of Objects: adding '".\obj\mbfuncdiag.o"'
+### List of Objects: adding '".\obj\mbfuncdisc.o"'
+### List of Objects: adding '".\obj\mbfuncholding.o"'
+### List of Objects: adding '".\obj\mbfuncinput.o"'
+### List of Objects: adding '".\obj\mbfuncother.o"'
+### List of Objects: adding '".\obj\mbutils.o"'
+### List of Objects: adding '".\obj\mbtcp.o"'
+### List of Objects: adding '".\obj\mb.o"'
+### List of Objects: adding '".\obj\acmp.o"'
+### List of Objects: adding '".\obj\adc.o"'
+### List of Objects: adding '".\obj\clk.o"'
+### List of Objects: adding '".\obj\ebi.o"'
+### List of Objects: adding '".\obj\fmc.o"'
+### List of Objects: adding '".\obj\gpio.o"'
+### List of Objects: adding '".\obj\i2c.o"'
+### List of Objects: adding '".\obj\pwm.o"'
+### List of Objects: adding '".\obj\retarget.o"'
+### List of Objects: adding '".\obj\spi.o"'
+### List of Objects: adding '".\obj\sys.o"'
+### List of Objects: adding '".\obj\timer.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\wdt.o"'
+### List of Objects: adding '".\obj\wwdt.o"'
+### List of Objects: adding '".\obj\startup_m051series.o"'
+### List of Objects: adding '".\obj\system_m051series.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\obj\main.o" ".\obj\port.o" ".\obj\portevent.o" ".\obj\portserial.o" ".\obj\porttimer.o" ".\obj\user_mb_app.o" ".\obj\mbcrc.o" ".\obj\mbrtu.o" ".\obj\btfunc.o" ".\obj\mbfunccoils.o" ".\obj\mbfuncdiag.o" ".\obj\mbfuncdisc.o" ".\obj\mbfuncholding.o" ".\obj\mbfuncinput.o" ".\obj\mbfuncother.o" ".\obj\mbutils.o" ".\obj\mbtcp.o" ".\obj\mb.o" ".\obj\acmp.o" ".\obj\adc.o" ".\obj\clk.o" ".\obj\ebi.o" ".\obj\fmc.o" ".\obj\gpio.o" ".\obj\i2c.o" ".\obj\pwm.o" ".\obj\retarget.o" ".\obj\spi.o" ".\obj\sys.o" ".\obj\timer.o" ".\obj\uart.o" ".\obj\wdt.o" ".\obj\wwdt.o" ".\obj\startup_m051series.o" ".\obj\system_m051series.o" --library_type=microlib --feedback ".\obj\Modbus.fed" 
+--strict --scatter ".\obj\Modbus.sct" 
+--entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\Modbus.map" -o ".\obj\Modbus.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\Modbus.axf'
+### ADS-LD Command File: '.\obj\Modbus.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\Modbus.lnp', Handle=0x00000320
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\Modbus.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

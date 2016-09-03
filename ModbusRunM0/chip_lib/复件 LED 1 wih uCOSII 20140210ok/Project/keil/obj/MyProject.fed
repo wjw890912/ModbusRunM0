@@ -1,0 +1,102 @@
+;#<FEEDBACK># ARM Linker, 4.1 [Build 894]: Last Updated: Wed Oct 15 16:21:03 2014
+;VERSION 0.2
+;FILE app_hooks.o
+;FILE core_cm0.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE initialization.o
+ADC_Init <= USED 0
+CKO_Init <= USED 0
+EBI_Init <= USED 0
+GPIO_Init <= USED 0
+I2C0_Init <= USED 0
+PWMA_Init <= USED 0
+PWMB_Init <= USED 0
+SPI0_Init <= USED 0
+SPI1_Init <= USED 0
+SYS_Init <= USED 0
+TMR0_Init <= USED 0
+TMR1_Init <= USED 0
+UART0_Init <= USED 0
+;FILE main.o
+;FILE os_cpu_c.o
+;FILE os_dbg.o
+;FILE ram.o
+;FILE rambuf.o
+;FILE retarget.o
+GetChar <= USED 0
+IsDebugFifoEmpty <= USED 0
+SendChar <= USED 0
+SendChar_ToUART <= USED 0
+_ttywrch <= USED 0
+ferror <= USED 0
+fgetc <= USED 0
+fputc <= USED 0
+kbhit <= USED 0
+;FILE startup_m051series.o
+;FILE system_m051series.o
+;FILE uart_ad.o
+T_set_mode <= USED 0
+;FILE ucos_ii.o
+OSEventNameGet <= USED 0
+OSEventPendMulti <= USED 0
+OSFlagAccept <= USED 0
+OSFlagCreate <= USED 0
+OSFlagDel <= USED 0
+OSFlagNameGet <= USED 0
+OSFlagNameSet <= USED 0
+OSFlagPend <= USED 0
+OSFlagPendGetFlagsRdy <= USED 0
+OSFlagPost <= USED 0
+OSFlagQuery <= USED 0
+OSIntEnter <= USED 0
+OSMboxAccept <= USED 0
+OSMboxDel <= USED 0
+OSMboxPendAbort <= USED 0
+OSMboxPostOpt <= USED 0
+OSMboxQuery <= USED 0
+OSMemCreate <= USED 0
+OSMemGet <= USED 0
+OSMemNameGet <= USED 0
+OSMemNameSet <= USED 0
+OSMemPut <= USED 0
+OSMemQuery <= USED 0
+OSMutexAccept <= USED 0
+OSMutexCreate <= USED 0
+OSMutexDel <= USED 0
+OSMutexPend <= USED 0
+OSMutexPost <= USED 0
+OSMutexQuery <= USED 0
+OSSemAccept <= USED 0
+OSSemDel <= USED 0
+OSSemPendAbort <= USED 0
+OSSemQuery <= USED 0
+OSSemSet <= USED 0
+OSTaskChangePrio <= USED 0
+OSTaskCreate <= USED 0
+OSTaskDelReq <= USED 0
+OSTaskNameGet <= USED 0
+OSTaskQuery <= USED 0
+OSTaskRegGet <= USED 0
+OSTaskRegSet <= USED 0
+OSTaskResume <= USED 0
+OSTimeDlyHMSM <= USED 0
+OSTimeDlyResume <= USED 0
+OSTimeGet <= USED 0
+OSTimeSet <= USED 0
+OSTmrCreate <= USED 0
+OSTmrDel <= USED 0
+OSTmrNameGet <= USED 0
+OSTmrRemainGet <= USED 0
+OSTmrStart <= USED 0
+OSTmrStateGet <= USED 0
+OSTmrStop <= USED 0
+OSVersion <= USED 0
+OS_EventTaskWaitMulti <= USED 0
+OS_MemCopy <= USED 0
+OS_StrLen <= USED 0
+__ARM_common_switch8 <= USED 0

@@ -1,0 +1,5 @@
+--cpu Cortex-M0 ".\obj\main.o" ".\obj\port.o" ".\obj\portevent.o" ".\obj\portserial.o" ".\obj\porttimer.o" ".\obj\user_mb_app.o" ".\obj\mbcrc.o" ".\obj\mbrtu.o" ".\obj\btfunc.o" ".\obj\mbfunccoils.o" ".\obj\mbfuncdiag.o" ".\obj\mbfuncdisc.o" ".\obj\mbfuncholding.o" ".\obj\mbfuncinput.o" ".\obj\mbfuncother.o" ".\obj\mbutils.o" ".\obj\mbtcp.o" ".\obj\mb.o" ".\obj\acmp.o" ".\obj\adc.o" ".\obj\clk.o" ".\obj\ebi.o" ".\obj\fmc.o" ".\obj\gpio.o" ".\obj\i2c.o" ".\obj\pwm.o" ".\obj\retarget.o" ".\obj\spi.o" ".\obj\sys.o" ".\obj\timer.o" ".\obj\uart.o" ".\obj\wdt.o" ".\obj\wwdt.o" ".\obj\startup_m051series.o" ".\obj\system_m051series.o" --library_type=microlib --feedback ".\obj\Modbus.fed" 
+--strict --scatter ".\obj\Modbus.sct" 
+--entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\Modbus.map" -o ".\obj\Modbus.axf"

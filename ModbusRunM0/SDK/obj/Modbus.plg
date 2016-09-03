@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\桌面\MODBUS-M0\SDK\Modbus.uvproj
+Project File Date:  09/03/2016
+
+<h2>Output:</h2>
+Build target 'Modbus'
+compiling main.c...
+..\user\src\main.c(83): error:  #7: unrecognized token
+..\user\src\main.c:      、
+..\user\src\main.c:      ^
+..\user\src\main.c(83): error:  #29: expected an expression
+..\user\src\main.c:      、
+..\user\src\main.c:      ^
+..\user\src\main.c(83): error:  #7: unrecognized token
+..\user\src\main.c:      、
+..\user\src\main.c:       ^
+..\user\src\main.c: ..\user\src\main.c: 0 warnings, 3 errors
+compiling porttimer.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(146): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\freemodbus-v1.6.0\modbus\mb.c:           ( ucSlaveAddress < MB_ADDRESS_MIN ) || ( ucSlaveAddress > MB_ADDRESS_MAX ) )
+..\freemodbus-v1.6.0\modbus\mb.c:                            ^
+..\freemodbus-v1.6.0\modbus\mb.c(426): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(426): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 4 warnings, 0 errors
+Target not created
+Build target 'Modbus'
+compiling main.c...
+..\user\src\main.c(83): error:  #7: unrecognized token
+..\user\src\main.c:      、
+..\user\src\main.c:      ^
+..\user\src\main.c(83): error:  #29: expected an expression
+..\user\src\main.c:      、
+..\user\src\main.c:      ^
+..\user\src\main.c(83): error:  #7: unrecognized token
+..\user\src\main.c:      、
+..\user\src\main.c:       ^
+..\user\src\main.c: ..\user\src\main.c: 0 warnings, 3 errors
+Target not created
+Build target 'Modbus'
+compiling main.c...
+linking...
+Program Size: Code=4976 RO-data=1360 RW-data=244 ZI-data=1380  
+".\obj\Modbus.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Modbus'
+linking...
+Program Size: Code=4976 RO-data=1360 RW-data=244 ZI-data=1380  
+".\obj\Modbus.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Modbus'
+linking...
+Program Size: Code=4976 RO-data=1360 RW-data=244 ZI-data=1380  
+".\obj\Modbus.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Modbus'
+linking...
+Program Size: Code=4976 RO-data=1360 RW-data=244 ZI-data=1380  
+".\obj\Modbus.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Documents and Settings\\Administrator\\桌面\\MODBUS-M0\\SDK\\obj\\Modbus.AXF" 
+Load "C:\\Documents and Settings\\Administrator\\桌面\\MODBUS-M0\\SDK\\obj\\Modbus.AXF" 
+Build target 'Modbus'
+linking...
+Program Size: Code=4976 RO-data=1360 RW-data=244 ZI-data=1380  
+".\obj\Modbus.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Documents and Settings\\Administrator\\桌面\\MODBUS-M0\\SDK\\obj\\Modbus.AXF" 
